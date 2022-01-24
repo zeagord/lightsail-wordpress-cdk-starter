@@ -1,0 +1,17 @@
+*.d.ts
+*.js
+node_modules
+.gen
+!jest.config.js
+!setup.js
+
+#CDKTF
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*
+.terraform
+tsconfig.tsbuildinfo
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
